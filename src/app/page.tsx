@@ -21,6 +21,7 @@ const Page = () => {
       setProduct(fetchedProduct);
     }
     fetchProduct();
+    
   }, []);
 
   const handleAddToCart = (e: React.MouseEvent, product: Products) => {
